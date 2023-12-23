@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: white;
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.you{
+    display: inline-block;
+    transform: translate(-10%,-0.3%);
+    font-size: 1.5rem;
+}
+section img{
+    display: inline-block;
+    transform: translate(-10%, 25%);
+}
+.header{
+    padding:0.25 0.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding: 2.3rem;
+}
+.menu-button{
+    background-color: transparent;
+    border: none;
+    width: 25px;
+    height: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    transform: translate(-90%, 100%);
+}
+.menu-icon,
+.menu-icon::before,
+.menu-icon::after{
+    font-size: 0rem;
+    background-color:rgba(0,0,0,0.6);
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.menu-icon::before,
+.menu-icon::after{
+    content: "";
+}
+.menu-icon::before{
+    transform: translate(-20px,-12px);
+}
+.menu-icon::after{
+    transform: translate(-20px,12px);
+}
+.main{
+    width: 20vw;
+    height: 80vh;
+    border: 2px solid white;
+    transform: rotate(-90deg,90deg);
+    margin-right: 300px;
+    margin-top: 50px;
+}
+nav{
+    padding: 0rem;
+    margin-left: 110px;
+    text-align: left;
+    transform: translateY(-100%);
+}
+hr{
+    width: 10%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+nav li{
+    padding: 0.5rem;
+}
+.nav{
+    transform: translateY(-1060%);
+}
+input{
+    text-align: center;
+    border-radius: 20px;
+}
+nav{
+    transform: translateY(-250%);
+}
+li img{
+    transform: translate(-200%,30%);
+}
+li{
+    transform: translate(-10%,-940%);
+    cursor: pointer;
+}
+.text{
+    position: relative;
+    transform: translateX(10%);
+    font-size: 2.75rem;
+    width: 55vw;
+}
+section{
+    min-height: 100vh;
+}
+.site img{
+    display: block;
+    transform: translate(2145%,-103%);
+    border-left: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+    
+}
+.class{
+    transform: translate(113%,-270%);
+
+}
+.demo{
+    margin-right: 30px;
+}
+.select ul{
+    display:flex;
+    flex-flow: row nowrap;
+    list-style: none;
+
+}
+.select li{
+    padding: 0.01rem 0.01rem;
+    transform: translateY(640%);
+    margin: 2rem;
+}
+.select li a{
+    padding: 0.9rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+}
+li a:focus{
+    color: black;
+    background-color: black;
+    color: white;
+}
+.right iframe{
+    display:flex;
+    flex-flow: row nowrap;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left:100px;
+
+}
+.left iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(140%,-120%);
+}
+.center iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(20%,-120%);
+}
+
+.straight iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(140%,-220%);
+}
+.route iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(140%,-210%);
+
+}
+.north iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(20%,-330%);
+}
+
+.west iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(250%,-660%);
+}
+.east iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(250%,-660%);
+
+}
+.south iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(250%,-645%);
+
+}
+
+#music .right iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left:100px;
+    transform: translateY(-630%);
+
+}
+#music .left iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(140%,-730%);
+}
+#music .rightle iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left:100px;
+    transform: translateY(-720%);
+}
+#music .leftle iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(140%,-820%);
+
+}
+
+#music .rightleft iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left:100px;
+    transform: translateY(-810%);
+
+}
+#music .leftlek iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(140%,-910%);
+
+}
+#music .rightt iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left:100px;
+    transform: translateY(-890%);
+
+}
+#music .leftt iframe{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(140%,-990%);
+
+}
